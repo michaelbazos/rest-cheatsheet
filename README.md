@@ -10,7 +10,10 @@ The following describe typical use cases of HTTP methods in a restful API:
 
 | HTTP method | Specific item `/printers/{{id}}` | Collection of items `/printers` |
 | :---------: | :------------------------------: | :-----------------------------: |
-| GET | Get a representation for the requested id | Get collection details |
+| GET | Get data regarding the item _#id_ | Get data regarding the entire collection |
+| PUT | Replace the item _#id_ (create if necessary) | Replace the entire collection (create if necessary) |
+| DELETE | Delete the item _#id_ | Delete the entire collection |
+
 
 ## References
 
