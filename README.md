@@ -8,11 +8,11 @@ REST stands for _**RE**presentational **S**tate **T**ransfer_. The term was intr
 
 The following describe typical use cases of HTTP methods in a restful API:
 
-| HTTP method | Specific item `/printers/{{id}}` | Collection of items `/printers` |
+| Method | Path to a specific id, like `/printers/{id}` | Path to a collection, like `/printers` |
 | :---------: | :------------------------------: | :-----------------------------: |
-| GET | Get data regarding the item _#id_ | Get data regarding the entire collection |
-| PUT | Replace the item _#id_ (create if necessary) | Replace the entire collection (create if necessary) |
-| DELETE | Delete the item _#id_ | Delete the entire collection |
+| GET | Get data for the item `{id}` | Get data for the entire collection |
+| PUT | (Over)write the item `{id}` with the provided body content | (Over)write the entire collection with the provided body content |
+| DELETE | Delete the item `{id}` | Delete the entire collection |
 
 
 ## References
