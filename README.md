@@ -12,6 +12,7 @@ The following describe typical use cases of HTTP methods in a restful API:
 | :---------: | :------------------------------: | :-----------------------------: |
 | GET | Get data for the item `{id}` | Get data for the entire collection |
 | PUT | (Over)write the item `{id}` with the provided body content | (Over)write the entire collection with the provided body content |
+| POST | _Don't do it_ | Post a new item to the collection |
 | DELETE | Delete the item `{id}` | Delete the entire collection |
 
 
