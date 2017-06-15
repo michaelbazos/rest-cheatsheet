@@ -4,16 +4,16 @@
 
 REST stands for _**RE**presentational **S**tate **T**ransfer_. The term was introduced in 2000, in Roy Thomas Fielding's dissertation [Architectural Styles and the Design of Network-based Software Architectures](http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm).
 
-## Summary
+## Hey server, can I tell you something _please?_
 
-The following describe typical use cases of HTTP methods in a restful API:
+The following table the expected meaning of requests in a restful API:
 
 | Method | Path to a specific id, like `/printers/{id}` | Path to a collection, like `/printers` |
 | :---------: | :------------------------------: | :-----------------------------: |
-| GET | Get data for the item `{id}` | Get data for the entire collection |
-| PUT | (Over)write the item `{id}` with the provided body content | (Over)write the entire collection with the provided body content |
-| POST | _Don't do it_ | Post a new item to the collection |
-| DELETE | Delete the item `{id}` | Delete the entire collection |
+| GET | "Please get me the data for this printer" | "Please get me the data for the entire collection of printers" |
+| PUT | "Please write or replace this printer, all infos are in my body" | "Please write or replace this collection of printers, all infos are in my body" |
+| POST | _Don't do it. You post specific items at the collection level_ | "Please add this subset of printers to your collection. It'd nice if you give me the resulting IDs in return" |
+| DELETE | "Please delete this printer" | "Please delete the entire collection of printers" |
 
 
 ## References
