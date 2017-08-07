@@ -1,4 +1,5 @@
-# Rest Architecture Cheatsheet
+
+<h2 align="center">Rest Architecture Cheatsheet</h2>
 
 ## Definitions
 
