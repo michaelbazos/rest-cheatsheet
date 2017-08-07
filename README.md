@@ -1,5 +1,9 @@
-
-<h2 align="center">Rest Architecture Cheatsheet</h2>
+<p align="center">
+  <a href="https://github.com/michaelbazos/rest-cheatsheet/stargazers">
+    <img src="https://img.shields.io/github/stars/michaelbazos/rest-cheatsheet.svg?style=flat-square"/>
+  </a>
+</p>
+<h1 align="center">Rest Architecture Cheatsheet </h1>
 
 ## Definitions
 
